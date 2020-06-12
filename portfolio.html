@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial scale=1.0">
+	<meta charset="UTF-8">
+	<title>PORTFOLIO</title>
+	<link rel="stylesheet" href="style9.css">
+</head>
+<body>
+	<section class="banner" id="sec">
+		<header>
+			<a href="#" class="logo">LOGO</a>
+			<div id="toggle" onclick="toggle()"></div>
+		</header>
+		<div class="content">
+			<h2>Hello There,<br>I'm <span>Megha Dhupar</span></h2>
+			<p>I have done my schooling from Girls' High School & College,Allahabad.
+			I am a front end web developer.I am expecting to complete my graduation from United College Of Engineering & Management,Allahabad in the year 2022. </p>
+			<a href="contact.pdf">Know more</a>
+			</div>
+			<ul class="sci">
+				<li><a href="#"><img src="img.jpg"></a></li>
+				<li><a href="#"><img src="img1.png"></a></li>
+				<li><a href="#"><img src="img2.png"></a></li>
+			</ul>	
+</section>
+<div id="navigation">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="#">Work</a></li>
+		<li><a href="contact.pdf">Portfolio</a></li>
+		<li><a href="cont.html">Contact</a></li>
+	</ul>
+</div>
+<script type="text/javascript">
+	function toggle(){
+		var sec = document.getElementById('sec');
+		var nav = document.getElementById('navigation');
+		sec.classList.toggle('active')
+		nav.classList.toggle('active')
+	}
+	
+</script>
+</body>
+</html>
